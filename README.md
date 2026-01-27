@@ -14,7 +14,7 @@ These concepts add to make a sketch framework that is comparable to accuracy fro
 
 
 # Capabilities Added: 
-* Count Min Sketch (CMS): CMS is a probabilistic data structure that estimates the frequency of an item in a data stream quickly and using little memory.
+* **Count Min Sketch (CMS):** CMS is a probabilistic data structure that estimates the frequency of an item in a data stream quickly and using little memory. The files added to implement CMS are src/common/count_min_sketch.hpp and src/common/count_min_sketch.cpp. 
 
 
 # Dependencies Used
