@@ -7,7 +7,7 @@ DuckDB is downloaded over 20 million times per month<sup>1</sup> and the goal of
 
 
 # Capabilities Added: 
-* **Count Min Sketch (CMS):** CMS is a probabilistic data structure that estimates the frequency of an item in a data stream quickly and using little memory. The files added to implement CMS are duckdb/src/common/count_min_sketch.hpp and duckdb/src/common/count_min_sketch.cpp. 
+* **Approximate_Min:** Approximate min is Count Min Sketch. It has two parts, approximate_min_build builds the sketch and the sketch is queried using approximate_min. Once a sketch is built for a column, it does not need to be built again, it can be queried many times. 
 
 
 # Dependencies Used
